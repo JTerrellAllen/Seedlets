@@ -10,61 +10,91 @@
   <body>
 
 <!-- Header and Nav -->
-<div class="row">
-  <div class="large-3 columns">
-    <h1><img src="assets/seedlets-logo.png"/></h1>
-  </div>
-  <div class="large-9 columns">
-    <img src="assets/menu_button.png" />
+
+<div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section id="logo" class="left tab-bar-section">
+        <h1 class="title"><img src="assets/seedlets-logo.png"/></h1>
+      </section>
+
+    </nav>
+
+    <!-- Off Canvas Menu -->
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Menu</label></li>
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Something Elose</a></li>
+      </ul>
+    </aside>
+
+  <!-- close the off-canvas menu -->
+  <a class="exit-off-canvas"></a>
+
   </div>
 </div>
-<div class="row">
-  <div class="large-12 columns">
-    <img src="assets/kids_playing.png" />
-</div>
-<div>
-  <div class="large-8 columns">
-    <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+
+<div class="hero">
+  <div class="row">
+    <div class="large-12 columns">
+    </div>
+  </div>
+
+  <div>
+    <div class="large-12 columns">
+      <h1>Thank you!</h1>
+    </div>
+  </div>
 </div>
 
 <!-- End of Header and Nav -->
 
 <!-- Featured Campaign -->
-<div class="row">
-  <div class="large-5 columns">
-    <div class="title">
-      <h3>Featured Campaign</h3>
+<div class="featured">
+  <div class="row">
+    <div class="large-5 columns">
+      <div class="title">
+        <h2>Featured</h2>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="large-12 columns">
-    <div class="featured-image">
-      <div class="campaign-category">
-        <a href="#">Human Services</a>
-      </div>
-      <div class="campaign-details">
-        <a href="#"><h3 class="campaign-title">Bags for Kids</h3></a>
-        <p class="creator">by <a href="#">A Charity Group</a></p>
-        <p class="campaign-location"><a href="#">Chicago, IL</p></a>
-        <p class="campaign-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quod tenetur distinctio corporis architecto odit quasi maxime!</p>
-        <img src="assets/child_bookbag.png"/>
-      </div>
-      <div id="campaign-stats">
-        <div class="campaign-funding-stats">
-          <span class="campaign-funding-amount">
-            <span>$12,000</span>
-            <span id="funded">funded</span>
-          </span>
-          <span class="campaign-funding-goal">
-            <span>12,000</span>
-            <span id="goal">goal</span>
-          </span>
-          <span class="campaign-funding-time-left">
-            <span id="time-left-number">14 days</span>
-            <span id="time-left">time left</span>
-          </span>
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="featured-image">
+          <div class="campaign-copy">
+            <div class="campaign-details">
+              <a href="#"><h3 class="campaign-title">Bags for Kids</h3></a>
+              <p class="creator">by <a href="#">A Charity Group</a></p>
+              <p class="campaign-location"><a href="#">Chicago, IL</p></a>
+              <p class="campaign-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+
+            <div id="campaign-stats">
+              <div class="campaign-funding-stats">
+                <span class="campaign-funding-amount">
+                  <span>$12,000</span>
+                  <span id="funded">funded</span>
+                </span>
+                <span class="campaign-funding-goal">
+                  <span>12,000</span>
+                  <span id="goal">goal</span>
+                </span>
+                <span class="campaign-funding-time-left">
+                  <span id="time-left-number">14 days</span>
+                  <span id="time-left">time left</span>
+                </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -78,7 +108,7 @@
 <div class="row">
   <div class="large-3 columns">
     <div class="title">
-      <h3>Ending Soon</h3>
+      <h2>Ending Soon</h2>
     </div>
   </div>
   <div class="large-9 columns">
@@ -168,7 +198,7 @@
 <div class="row">
   <div class="large-3 columns">
     <div class="title">
-      <h3>New Campaigns</h3>
+      <h2>New Campaigns</h2>
     </div>
   </div>
   <div class="large-9 columns">
@@ -254,26 +284,19 @@
 <!-- End of New Campaigns -->
 
 <!-- Footer -->
-<div class="clear">
-
-<div class="row">
-  <div class="large-9 columns">
-    <footer>
-      <nav>
-        <p>
-          <a href="#">Start a Campaign | </a>
-          <a href="#">About |</a>
-          <a href="#">FAQ</a>
-        </p>
-      </nav>
-    </footer>
-  </div>
-
-  <div class="large-3 columns">
-    <footer>
+<div class="clearfix">
+  <footer class="row">
+    <nav class="large-9 columns">
+      <ul>
+        <ul><a href="#">Start a Campaign</a></ul>
+        <ul><a href="#">About</a></ul>
+        <ul><a href="#">FAQ</a></ul>
+      </ul>
+    </nav>
+    <div class="large-3 columns">
       <p>Copyright 2014, Seedlets</p>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </div>
 
 <!-- End of Footer -->
