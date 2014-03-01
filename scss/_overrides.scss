@@ -5,6 +5,12 @@ $secondary-color: #668DB3;
 $action-color: #85CCC2;
 $accent-color: #B38F55;
 
+// Base font size
+$base-font-size: 18px;
+
+// Base line height
+$base-line-height: 0.9;
+
 
 // Typeface
 
@@ -55,14 +61,17 @@ a {
 }
 
 
-// Featured Campaign
+// Featured
 
 .featured-image {
       background-image: url('../assets/child_bookbag.png');
       background-size: cover;
       background-position: center center;
-      margin: 10px 0 0 0;
+      margin: 20px 0 0 0;
       min-height: 250px;
+    }
+    .title {
+      margin: 20px 0 0 0;
     }
     .campaign-copy {
       background-color: rgba($accent-color, 0.8);
@@ -70,18 +79,22 @@ a {
       width: 440px;
       height: 250px;
     }
-    h3 {
-      text-transform: uppercase;
-      color: white;
-      text-align: center;
-    }
-    .campaign-details {
-      text-align: center;
-      color: white;
-      line-height: 0.9;
-    }
-    p {
-      color: white;
-    }
+      h3 {
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+      }
+      .campaign-details {
+        text-align: center;
+        color: white;
+        line-height: 0.9;
+      }
+      p {
+        color: white;
+      }
+
+// Ending Soon
+
+
 
 

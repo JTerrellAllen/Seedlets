@@ -7726,40 +7726,40 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 14, ../scss/_overrides.scss */
+/* line 20, ../scss/_overrides.scss */
 h1 {
   font: "Myanmar MN", Helvetica, sans-serif;
   color: #fff;
   font-size: 100px;
 }
 
-/* line 20, ../scss/_overrides.scss */
+/* line 26, ../scss/_overrides.scss */
 h2 {
   font: "Myanmar MN", Helvetica, sans-serif;
   color: #668db3;
   font-size: 30px;
 }
 
-/* line 26, ../scss/_overrides.scss */
+/* line 32, ../scss/_overrides.scss */
 h3 {
   font: "Myanmar MN", Helvetica, sans-serif;
   color: #668db3;
   font-size: 25px;
 }
 
-/* line 32, ../scss/_overrides.scss */
+/* line 38, ../scss/_overrides.scss */
 p {
   font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #333333;
   font-size: 16px;
 }
 
-/* line 38, ../scss/_overrides.scss */
+/* line 44, ../scss/_overrides.scss */
 a {
   color: #85ccc2;
 }
 
-/* line 44, ../scss/_overrides.scss */
+/* line 50, ../scss/_overrides.scss */
 .hero {
   background-image: url("../assets/six-happy-kids.png");
   background-size: cover;
@@ -7767,23 +7767,28 @@ a {
   margin: 0;
   min-height: 600px;
 }
-/* line 50, ../scss/_overrides.scss */
+/* line 56, ../scss/_overrides.scss */
 .hero h1 {
   margin: 450px 0 0 50px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 60, ../scss/_overrides.scss */
+/* line 66, ../scss/_overrides.scss */
 .featured-image {
   background-image: url("../assets/child_bookbag.png");
   background-size: cover;
   background-position: center center;
-  margin: 10px 0 0 0;
+  margin: 20px 0 0 0;
   min-height: 250px;
 }
 
-/* line 67, ../scss/_overrides.scss */
+/* line 73, ../scss/_overrides.scss */
+.title {
+  margin: 20px 0 0 0;
+}
+
+/* line 76, ../scss/_overrides.scss */
 .campaign-copy {
   background-color: rgba(179, 143, 85, 0.8);
   margin-top: -19px;
@@ -7791,21 +7796,21 @@ a {
   height: 250px;
 }
 
-/* line 73, ../scss/_overrides.scss */
+/* line 82, ../scss/_overrides.scss */
 h3 {
   text-transform: uppercase;
   color: white;
   text-align: center;
 }
 
-/* line 78, ../scss/_overrides.scss */
+/* line 87, ../scss/_overrides.scss */
 .campaign-details {
   text-align: center;
   color: white;
   line-height: 0.9;
 }
 
-/* line 83, ../scss/_overrides.scss */
+/* line 92, ../scss/_overrides.scss */
 p {
   color: white;
 }
