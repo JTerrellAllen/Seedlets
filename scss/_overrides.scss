@@ -1,16 +1,25 @@
 // Base colors
-$base-color: #333;
-$brand-color: #C5E3FF;
-$secondary-color: #668DB3;
-$action-color: #85CCC2;
-$accent-color: #B38F55;
+$base-color: #333;          // black
+$brand-color: #C5E3FF;      // light blue
+$secondary-color: #668DB3;  // dark blue
+$action-color: #85CCC2;     // green
+$accent-color: #B38F55;     // gold
 
-// Base font size
+// Font size
+$tiny-font-size: 12px;
+$tiny-font-leading: 0.75;
+$small-font-size: 14px;
+$small-font-leading: 0.75;
 $base-font-size: 18px;
-
-// Base line height
-$base-line-height: 0.9;
-
+$base-font-leading: 1;
+$medium-font-size: 24px;
+$medium-font-leading: 1.25;
+$large-font-size: 32px;
+$large-font-leading: 1.25;
+$xlarge-font-size: 43px;
+$xlarge-font-leading: 1.25;
+$xxlarge-font-size: 100px;
+$xxlarge-font-leading: 1.25;
 
 // Typeface
 
@@ -20,25 +29,36 @@ $secondary-typeface: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica N
 h1 {
   font: $main-typeface;
   color: #fff;
-  font-size: 100px;
+  font-size: $xxlarge-font-size;
 }
 
 h2 {
   font: $main-typeface;
   color: $secondary-color;
-  font-size: 30px;
+  font-size: $large-font-size;
 }
 
 h3 {
   font: $main-typeface;
   color: $base-color;
-  font-size: 25px;
+  font-size: $medium-font-size
 }
+
+h4 {
+  font: $secondary-typeface;
+  font-size: $base-font-size
+}
+
+h5 {
+  font: $secondary-typeface;
+  font-size: $small-font-size
+}
+
 
 p {
   font: $secondary-typeface;
   color: $base-color;
-  font-size: 16px;
+  font-size: $tiny-font-size;
 }
 
 a {
@@ -73,22 +93,6 @@ a {
     .title {
       margin: 20px 0 0 0;
     }
-    .campaign-copy {
-      background-color: rgba($accent-color, 0.8);
-      margin-top: -19px;
-      width: 440px;
-      height: 250px;
-    }
-      h3 {
-        text-transform: uppercase;
-        color: white;
-        text-align: center;
-      }
-      .campaign-details {
-        text-align: center;
-        color: white;
-        line-height: 0.9;
-      }
 
 
 // Ending Soon
@@ -98,6 +102,26 @@ a {
   height: 450px;
   background-color: $brand-color;
 }
+
+.campaign-1 {
+  padding-top: 10px;
+}
+  .progress-bar-wrap {
+    border-radius: 4px;
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    width: 180px;
+    height: 25px;
+    background: #d0d5cb;
+    padding: 0;
+    margin-top: 5px;
+  }
+  .pledged-amount {
+    background: $action-color;
+    border-radius: 4px;
+    height: 25px;
+  }
 
 // Footer
 

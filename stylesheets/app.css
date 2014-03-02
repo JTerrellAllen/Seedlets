@@ -7726,40 +7726,52 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 20, ../scss/_overrides.scss */
+/* line 29, ../scss/_overrides.scss */
 h1 {
   font: "Myanmar MN", Helvetica, sans-serif;
   color: #fff;
   font-size: 100px;
 }
 
-/* line 26, ../scss/_overrides.scss */
+/* line 35, ../scss/_overrides.scss */
 h2 {
   font: "Myanmar MN", Helvetica, sans-serif;
   color: #668db3;
-  font-size: 30px;
+  font-size: 32px;
 }
 
-/* line 32, ../scss/_overrides.scss */
+/* line 41, ../scss/_overrides.scss */
 h3 {
   font: "Myanmar MN", Helvetica, sans-serif;
   color: #333333;
-  font-size: 25px;
+  font-size: 24px;
 }
 
-/* line 38, ../scss/_overrides.scss */
+/* line 47, ../scss/_overrides.scss */
+h4 {
+  font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18px;
+}
+
+/* line 52, ../scss/_overrides.scss */
+h5 {
+  font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+}
+
+/* line 58, ../scss/_overrides.scss */
 p {
   font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #333333;
-  font-size: 16px;
+  font-size: 12px;
 }
 
-/* line 44, ../scss/_overrides.scss */
+/* line 64, ../scss/_overrides.scss */
 a {
   color: #85ccc2;
 }
 
-/* line 50, ../scss/_overrides.scss */
+/* line 70, ../scss/_overrides.scss */
 .hero {
   background-image: url("../assets/six-happy-kids.png");
   background-size: cover;
@@ -7767,14 +7779,14 @@ a {
   margin: 0;
   min-height: 600px;
 }
-/* line 56, ../scss/_overrides.scss */
+/* line 76, ../scss/_overrides.scss */
 .hero h1 {
   margin: 450px 0 0 50px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 66, ../scss/_overrides.scss */
+/* line 86, ../scss/_overrides.scss */
 .featured-image {
   background-image: url("../assets/child_bookbag.png");
   background-size: cover;
@@ -7783,63 +7795,66 @@ a {
   min-height: 250px;
 }
 
-/* line 73, ../scss/_overrides.scss */
+/* line 93, ../scss/_overrides.scss */
 .title {
   margin: 20px 0 0 0;
 }
 
-/* line 76, ../scss/_overrides.scss */
-.campaign-copy {
-  background-color: rgba(179, 143, 85, 0.8);
-  margin-top: -19px;
-  width: 440px;
-  height: 250px;
-}
-
-/* line 82, ../scss/_overrides.scss */
-h3 {
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-}
-
-/* line 87, ../scss/_overrides.scss */
-.campaign-details {
-  text-align: center;
-  color: white;
-  line-height: 0.9;
-}
-
-/* line 96, ../scss/_overrides.scss */
+/* line 100, ../scss/_overrides.scss */
 .ending-soon {
   margin: 40px 0 0 0;
   height: 450px;
   background-color: #c5e3ff;
 }
 
-/* line 104, ../scss/_overrides.scss */
+/* line 106, ../scss/_overrides.scss */
+.campaign-1 {
+  padding-top: 10px;
+}
+
+/* line 109, ../scss/_overrides.scss */
+.progress-bar-wrap {
+  border-radius: 4px;
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+  width: 180px;
+  height: 25px;
+  background: #d0d5cb;
+  padding: 0;
+  margin-top: 5px;
+}
+
+/* line 120, ../scss/_overrides.scss */
+.pledged-amount {
+  background: #85ccc2;
+  border-radius: 4px;
+  height: 25px;
+}
+
+/* line 128, ../scss/_overrides.scss */
 .footer {
   height: 30px;
   background-color: #668db3;
 }
 
-/* line 109, ../scss/_overrides.scss */
+/* line 133, ../scss/_overrides.scss */
 .footer p {
   font-size: 12px;
   color: #ffffff;
 }
 
-/* line 114, ../scss/_overrides.scss */
+/* line 138, ../scss/_overrides.scss */
 #copyright {
   margin: 5px 0 0 0;
 }
 
-/* line 117, ../scss/_overrides.scss */
+/* line 141, ../scss/_overrides.scss */
 .inline-list {
   font-size: 12px;
 }
 
-/* line 121, ../scss/_overrides.scss */
+/* line 145, ../scss/_overrides.scss */
 .inline-list a {
   color: #ffffff;
   margin: 5px 0 0 0;
