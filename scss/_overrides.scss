@@ -31,7 +31,7 @@ h2 {
 
 h3 {
   font: $main-typeface;
-  color: $secondary-color;
+  color: $base-color;
   font-size: 25px;
 }
 
@@ -89,12 +89,37 @@ a {
         color: white;
         line-height: 0.9;
       }
-      p {
-        color: white;
-      }
+
 
 // Ending Soon
 
+.ending-soon {
+  margin: 40px 0 0 0;
+  height: 450px;
+  background-color: $brand-color;
+}
 
+// Footer
 
+.footer {
+  height: 30px;
+  background-color: $secondary-color;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #ffffff;
+  }
+
+#copyright {
+  margin: 5px 0 0 0;
+}
+.inline-list {
+  font-size: 12px;
+}
+
+.inline-list a {
+  color: #ffffff;
+  margin: 5px 0 0 0;
+}
 

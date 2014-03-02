@@ -7743,7 +7743,7 @@ h2 {
 /* line 32, ../scss/_overrides.scss */
 h3 {
   font: "Myanmar MN", Helvetica, sans-serif;
-  color: #668db3;
+  color: #333333;
   font-size: 25px;
 }
 
@@ -7810,7 +7810,37 @@ h3 {
   line-height: 0.9;
 }
 
-/* line 92, ../scss/_overrides.scss */
-p {
-  color: white;
+/* line 96, ../scss/_overrides.scss */
+.ending-soon {
+  margin: 40px 0 0 0;
+  height: 450px;
+  background-color: #c5e3ff;
+}
+
+/* line 104, ../scss/_overrides.scss */
+.footer {
+  height: 30px;
+  background-color: #668db3;
+}
+
+/* line 109, ../scss/_overrides.scss */
+.footer p {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* line 114, ../scss/_overrides.scss */
+#copyright {
+  margin: 5px 0 0 0;
+}
+
+/* line 117, ../scss/_overrides.scss */
+.inline-list {
+  font-size: 12px;
+}
+
+/* line 121, ../scss/_overrides.scss */
+.inline-list a {
+  color: #ffffff;
+  margin: 5px 0 0 0;
 }
