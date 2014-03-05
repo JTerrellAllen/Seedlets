@@ -79,28 +79,29 @@ a {
     }
 }
 
+// Call to Action
 
-// Featured
+.start-a-campaign {
+  background: $secondary-color;
+}
 
-.featured-image {
-      background-image: url('../assets/child_bookbag.png');
-      background-size: cover;
-      background-position: center center;
-      margin: 20px 0 0 0;
-      min-height: 250px;
-    }
-    .title {
-      margin: 20px 0 0 0;
-    }
+#watch-video p {
+  margin: 5px;
+  margin-bottom: 5px;
+  font-size: $medium-font-size;
+  text-align: center;
+  }
+.start-a-campaign a {
+    margin-left: 10px;
+  }
 
 
 // Ending Soon
 
-/* .ending-soon {
-  margin: 40px 0 0 0;
-  height: 550px;
-  background-color: $brand-color;
-} */
+.ending-soon h2 {
+  margin-top: 80px;
+  font-size: $medium-font-size;
+  }
 
 .campaign {
   padding-top: 10px;
@@ -135,7 +136,11 @@ a {
 
   }
 
-// Just Added
+// New Campaigns
+
+.new-campaigns h2 {
+  font-size: $medium-font-size;
+  }
 
 // Ending Soon
 
@@ -187,12 +192,14 @@ a {
 .footer p {
     font-size: 12px;
     color: #ffffff;
+    margin-bottom: 0;
   }
   #copyright {
   margin: 5px 0 0 0;
 }
   .inline-list {
   font-size: 12px;
+  margin-bottom: 0;
 }
 
 .footer a {
