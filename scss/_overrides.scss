@@ -66,6 +66,13 @@ a {
 
 // Header
 
+.tab-bar .tab-bar-section {
+  background: #c5e3ff;
+}
+
+.tab-bar .right-off-canvas-toggle {
+  background: #c5e3ff;
+}
 .hero {
   background-image: url('../assets/six-happy-kids.png');
   background-size: cover;
@@ -79,7 +86,7 @@ a {
     }
 }
 
-// Call to Action
+// Watch Video
 
 .start-a-campaign {
   background: $secondary-color;
@@ -90,6 +97,8 @@ a {
   margin-bottom: 5px;
   font-size: $medium-font-size;
   text-align: center;
+  background: $secondary-color;
+  color: #ffffff;
   }
 .start-a-campaign a {
     margin-left: 10px;
@@ -141,14 +150,6 @@ a {
 .new-campaigns h2 {
   font-size: $medium-font-size;
   }
-
-// Ending Soon
-
-/* .ending-soon {
-  margin: 40px 0 0 0;
-  height: 550px;
-  background-color: $brand-color;
-} */
 
 .campaign {
   padding-top: 10px;

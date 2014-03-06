@@ -7772,6 +7772,16 @@ a {
 }
 
 /* line 69, ../scss/_overrides.scss */
+.tab-bar .tab-bar-section {
+  background: #c5e3ff;
+}
+
+/* line 73, ../scss/_overrides.scss */
+.tab-bar .right-off-canvas-toggle {
+  background: #c5e3ff;
+}
+
+/* line 76, ../scss/_overrides.scss */
 .hero {
   background-image: url("../assets/six-happy-kids.png");
   background-size: cover;
@@ -7779,48 +7789,50 @@ a {
   margin: 0;
   min-height: 600px;
 }
-/* line 75, ../scss/_overrides.scss */
+/* line 82, ../scss/_overrides.scss */
 .hero h1 {
   margin: 450px 0 0 50px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 84, ../scss/_overrides.scss */
+/* line 91, ../scss/_overrides.scss */
 .start-a-campaign {
   background: #668db3;
 }
 
-/* line 88, ../scss/_overrides.scss */
+/* line 95, ../scss/_overrides.scss */
 #watch-video p {
   margin: 5px;
   margin-bottom: 5px;
   font-size: 24px;
   text-align: center;
+  background: #668db3;
+  color: #ffffff;
 }
 
-/* line 94, ../scss/_overrides.scss */
+/* line 103, ../scss/_overrides.scss */
 .start-a-campaign a {
   margin-left: 10px;
 }
 
-/* line 101, ../scss/_overrides.scss */
+/* line 110, ../scss/_overrides.scss */
 .ending-soon h2 {
   margin-top: 80px;
   font-size: 24px;
 }
 
-/* line 106, ../scss/_overrides.scss */
+/* line 115, ../scss/_overrides.scss */
 .campaign {
   padding-top: 10px;
 }
 
-/* line 109, ../scss/_overrides.scss */
+/* line 118, ../scss/_overrides.scss */
 .panel {
   background: #ffffff;
 }
 
-/* line 112, ../scss/_overrides.scss */
+/* line 121, ../scss/_overrides.scss */
 .progress-bar-wrap {
   border-radius: 4px;
   position: absolute;
@@ -7833,14 +7845,14 @@ a {
   margin-top: 5px;
 }
 
-/* line 123, ../scss/_overrides.scss */
+/* line 132, ../scss/_overrides.scss */
 .pledged-amount {
   font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   background: #358e81;
   height: 25px;
 }
 
-/* line 129, ../scss/_overrides.scss */
+/* line 138, ../scss/_overrides.scss */
 .amount {
   padding-left: 10px;
   padding-top: 5px;
@@ -7850,27 +7862,22 @@ a {
   font-size: 14px;
 }
 
-/* line 141, ../scss/_overrides.scss */
+/* line 150, ../scss/_overrides.scss */
 .new-campaigns h2 {
   font-size: 24px;
 }
 
-/* .ending-soon {
-  margin: 40px 0 0 0;
-  height: 550px;
-  background-color: $brand-color;
-} */
-/* line 153, ../scss/_overrides.scss */
+/* line 154, ../scss/_overrides.scss */
 .campaign {
   padding-top: 10px;
 }
 
-/* line 156, ../scss/_overrides.scss */
+/* line 157, ../scss/_overrides.scss */
 .panel {
   background: #ffffff;
 }
 
-/* line 159, ../scss/_overrides.scss */
+/* line 160, ../scss/_overrides.scss */
 .progress-bar-wrap {
   border-radius: 4px;
   position: absolute;
@@ -7883,14 +7890,14 @@ a {
   margin-top: 5px;
 }
 
-/* line 170, ../scss/_overrides.scss */
+/* line 171, ../scss/_overrides.scss */
 .pledged-amount {
   font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   background: #358e81;
   height: 25px;
 }
 
-/* line 176, ../scss/_overrides.scss */
+/* line 177, ../scss/_overrides.scss */
 .amount {
   padding-left: 10px;
   padding-top: 5px;
@@ -7900,31 +7907,31 @@ a {
   font-size: 14px;
 }
 
-/* line 188, ../scss/_overrides.scss */
+/* line 189, ../scss/_overrides.scss */
 .footer {
   height: 30px;
   background-color: #668db3;
 }
 
-/* line 192, ../scss/_overrides.scss */
+/* line 193, ../scss/_overrides.scss */
 .footer p {
   font-size: 12px;
   color: #ffffff;
   margin-bottom: 0;
 }
 
-/* line 197, ../scss/_overrides.scss */
+/* line 198, ../scss/_overrides.scss */
 #copyright {
   margin: 5px 0 0 0;
 }
 
-/* line 200, ../scss/_overrides.scss */
+/* line 201, ../scss/_overrides.scss */
 .inline-list {
   font-size: 12px;
   margin-bottom: 0;
 }
 
-/* line 205, ../scss/_overrides.scss */
+/* line 206, ../scss/_overrides.scss */
 .footer a {
   color: #ffffff;
   margin: 5px 0 0 0;
