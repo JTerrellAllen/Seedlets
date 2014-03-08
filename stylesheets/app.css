@@ -7907,31 +7907,48 @@ a {
   font-size: 14px;
 }
 
-/* line 189, ../scss/_overrides.scss */
+/* line 191, ../scss/_overrides.scss */
+.campaign-title {
+  line-height: 1;
+}
+
+/* line 194, ../scss/_overrides.scss */
+.campaign-title h2 {
+  text-align: center;
+  line-height: 1;
+}
+
+/* line 198, ../scss/_overrides.scss */
+.campaign-title h5 {
+  text-align: center;
+  line-height: 1;
+}
+
+/* line 208, ../scss/_overrides.scss */
 .footer {
   height: 30px;
   background-color: #668db3;
 }
 
-/* line 193, ../scss/_overrides.scss */
+/* line 212, ../scss/_overrides.scss */
 .footer p {
   font-size: 12px;
   color: #ffffff;
   margin-bottom: 0;
 }
 
-/* line 198, ../scss/_overrides.scss */
+/* line 217, ../scss/_overrides.scss */
 #copyright {
   margin: 5px 0 0 0;
 }
 
-/* line 201, ../scss/_overrides.scss */
+/* line 220, ../scss/_overrides.scss */
 .inline-list {
   font-size: 12px;
   margin-bottom: 0;
 }
 
-/* line 206, ../scss/_overrides.scss */
+/* line 225, ../scss/_overrides.scss */
 .footer a {
   color: #ffffff;
   margin: 5px 0 0 0;
