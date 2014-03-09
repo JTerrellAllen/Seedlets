@@ -1,3 +1,5 @@
+$include-html-button-classes: $include-html-classes;
+
 // Base colors
 $base-color: #333;          // black
 $brand-color: #C5E3FF;      // light blue
@@ -186,7 +188,10 @@ a {
 
 
 
-// Campaign Profile
+// Campaign Profile //
+
+// Header
+
 
 .campaign-title {
   line-height: $base-font-leading;
@@ -199,6 +204,12 @@ a {
     text-align: center;
     line-height: $base-font-leading;
   }
+
+// Sidebar
+
+.sidebar p {
+  line-height: $base-font-leading;
+}
 
 
 
