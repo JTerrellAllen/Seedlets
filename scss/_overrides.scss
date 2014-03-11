@@ -71,7 +71,15 @@ a {
 .top-bar {
   background: #c5e3ff;
 }
-
+.top-bar-section {
+  li {
+    a {
+      &:not(.button) {
+        background:none;
+      }
+    }
+  }
+}
 .top-bar-section > li > .has-dropdown {
   background: #c5e3ff;
 }
