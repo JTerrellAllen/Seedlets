@@ -34,47 +34,65 @@
     </ul>
 </nav>
 
-<!-- Horizontal Tabs -->
-<dl class="accordion" data-accordion>
-  <dd>
-    <a href="#panel1">Accordion 1</a>
-    <div id="panel1" class="content active">
-      <dl class="tabs" data-tab>
-        <dd class="active"><a href="#panel2-1">Tab 1/a></dd>
-        <dd><a href="#panel2-2">Tab 2</a></dd>
-        <dd><a href="#panel2-3">Tab 3</a></dd>
-        <dd><a href="#panel2-4">Tab 4</a></dd>
-      </dl>
-      <div class="tabs-content">
-        <div class="content active" id="panel2-1">
-          <p>First panel content goes here...</p>
-        </div>
-        <div class="content" id="panel2-2">
-          <p>Second panel content goes here...</p>
-        </div>
-        <div class="content" id="panel2-3">
-          <p>Third panel content goes here...</p>
-        </div>
-        <div class="content" id="panel2-4">
-          <p>Fourth panel content goes here...</p>
-        </div>
+<!-- Form -->
+<div class="row">
+  <div class="title">
+    <h2>Start a campaign</h2>
+  </div>
+</div>
+<form>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Category
+        <input type="text" placeholder="Select a category" />
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Campaign Image
+        <input type="text" placeholder="Select an image from your computer" />
+      </label>
+    </div>
+  </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <label>Campaign Title
+          <input type="text" placeholder="Enter the title" />
+        </label>
       </div>
     </div>
-  </dd>
-  <dd>
-    <a href="#panel2">Accordion 2</a>
-    <div id="panel2" class="content">
-      Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <div class="row">
+      <div class="large-6 columns">
+        <label>Description
+          <p>What's your campaign about?</p>
+          <textarea placeholder="200/200"></textarea>
+        </label>
+      </div>
     </div>
-  </dd>
-  <dd>
-    <a href="#panel3">Accordion 3</a>
-    <div id="panel3" class="content">
-      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <div class="row">
+      <div class="large-6 columns">
+        <label>Location
+          <input type="text" placeholder="City, State" />
+        </label>
+      </div>
     </div>
-  </dd>
-</dl>
+    <div class="row">
+      <div class="large-6 columns">
+        <label>Funding Goal
+          <input type="text" placeholder="$" />
+        </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <label>Duration
+          <input type="text" placeholder="1 - 90 days" />
+        </label>
+      </div>
+    </div>
 
+</form>
 <!-- Footer -->
 
     <footer class="row">
