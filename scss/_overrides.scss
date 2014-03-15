@@ -249,4 +249,10 @@ a {
   color: #ffffff;
   margin: 5px 0 0 0;
 }
-
+}
+@media screen and (max-width:35em) {
+  .right {
+    text-align: left!important;
+    float: left!important;
+  }
+}
